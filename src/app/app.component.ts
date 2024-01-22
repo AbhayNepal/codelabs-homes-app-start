@@ -1,5 +1,6 @@
 import { Component, MissingTranslationStrategy } from '@angular/core';
 import { HomeComponent } from './home/home.component';
+import { HousingLocationComponent } from './housing-location/housing-location.component';
 
 
 @Component({
@@ -13,11 +14,11 @@ import { HomeComponent } from './home/home.component';
    </header> 
    <section class="content">
    <app-home> </app-home>
-
+  <app-housing-location></app-housing-location>
    </section>
    </main>`,
   styleUrls: ['./app.component.css'],
-  imports:[HomeComponent]
+  imports:[HomeComponent,HousingLocationComponent]
 })
 export class AppComponent {
   title = 'homes';

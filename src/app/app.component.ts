@@ -1,6 +1,7 @@
 import { Component, MissingTranslationStrategy } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 
+
 @Component({
   standalone: true,
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { HomeComponent } from './home/home.component';
    </header> 
    <section class="content">
    <app-home> </app-home>
+
    </section>
    </main>`,
   styleUrls: ['./app.component.css'],
